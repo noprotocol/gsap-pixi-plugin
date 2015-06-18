@@ -12,9 +12,8 @@ sprite.anchor.x = 0.5;
 sprite.anchor.y = 0.5;
 sprite.scale.x = 0.7;
 
-TweenLite.to(object.position, 1, {x: 200});
-TweenLite.to(object.scale, 1, {x: 2, y: 2});
-
+TweenLite.to(sprite.position, 1, {x: 200});
+TweenLite.to(sprite.scale, 1, {x: 2, y: 2});
 ```
 
 With the PixiPlugin:
