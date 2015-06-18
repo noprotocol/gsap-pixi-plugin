@@ -1,0 +1,11 @@
+{
+  "name": "gsap-pixi-plugin",
+  "homepage": "https://github.com/NoProtocol/gsap-pixi-plugin",
+  "description": "Plugin for tweening Pixi.js objects",
+  "main": "PixiPlugin.js",
+  "keywords": [
+    "gsap",
+    "pixi"
+  ],
+  "license": "MIT"
+}
