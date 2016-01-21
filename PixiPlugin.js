@@ -24,8 +24,11 @@ var _gsScope = (typeof module !== "undefined" && module.exports && typeof global
                 switch (property) {
                     // PIXI.DisplayObject
                     case 'alpha':
-                    case 'rotation':
                         self._addTween(target, property, target.alpha, value, property);
+                        break;
+                    
+                    case 'rotation':
+                        self._addTween(target, property, target.rotation, value, property);
                         break;
 
                     case 'x':
